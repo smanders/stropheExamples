@@ -7,7 +7,7 @@ if(CMAKE_CONFIGURATION_TYPES)
 endif()
 project(stropheExamples)
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}) # Findexternpro.cmake
-set(externpro_REV 18.01.1-11-g0bc78f7)
+set(externpro_REV 18.01.1-14-g155a230)
 find_package(externpro REQUIRED)
 xpCommonFlags()
 xpGetExtern(externIncs externLibs PRIVATE libstrophe)
