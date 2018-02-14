@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include <strophe.h>
+#include <libstrophe/strophe.h>
 
 /* hardcoded TCP keepalive timeout and interval */
 #define KA_TIMEOUT 60

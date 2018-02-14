@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <strophe.h>
+#include <libstrophe/strophe.h>
 
 int main(int argc, char **argv)
 {
